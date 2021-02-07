@@ -1,0 +1,548 @@
+/*mobile styles*/
+
+@media (min-width: 0px) and (max-width: 767px) {
+  #Header {
+    padding: 16px 0;
+  }
+  #Header .logo a img {
+    width: 60px;
+  }
+  #Header .menu-wrap {
+    padding-top: 3px;
+  }
+  #nav-icon1 {
+    width: 40px;
+    height: 30px;
+  }
+  #nav-icon1 span {
+    height: 3px;
+  }
+  #nav-icon1 span:nth-child(2) {
+    top: 12px;
+  }
+  #nav-icon1 span:nth-child(3) {
+    top: 23px;
+  }
+  #HeroBanner {
+    height: 380px;
+  }
+  #BannerSlider {
+    padding-top: 50px;
+    text-align: center;
+  }
+  #BannerSlider .banner-text {
+    padding-top: 20px;
+  }
+  #BannerSlider .banner-text h1 {
+    font-size: 22px;
+    margin-bottom: 14px;
+  }
+  #BannerSlider .banner-text h1 br,
+  #BannerSlider .banner-text p br {
+    display: none;
+  }
+  #BannerSlider .banner-text p {
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+  #BannerSlider .bannet-cta a {
+    padding: 8px 25px;
+    font-size: 14px;
+  }
+  #BannerSlider .owl-dots {
+    bottom: 10px;
+  }
+  #Laptop {
+    text-align: center;
+  }
+  #Laptop .laptop-text {
+    padding-top: 15px;
+  }
+  #Laptop .laptop-text h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  #Laptop .laptop-text p {
+    font-size: 16px;
+  }
+  #Laptop .laptop-text a {
+    font-size: 14px;
+  }
+  #Gain .each-icon .icon-text,
+  #Gain .each-icon:hover .icon-wrap {
+    visibility: visible;
+    opacity: 1;
+  }
+  #Gain .each-icon .icon-wrap,
+  #Gain .each-icon .icon-text {
+    position: static;
+    transform: none;
+  }
+  #Gain .each-icon .icon-text {
+    padding-bottom: 20px;
+  }
+  #Gain .each-icon .icon-wrap {
+    padding-top: 16px;
+  }
+  #Gain .each-icon .icon-wrap i {
+    font-size: 50px;
+  }
+  #OurWork .filter-list li {
+    padding-bottom: 15px;
+    font-size: 16px;
+    width: 50%;
+    float: left;
+    background-color: #19af83;
+    padding: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  #OurWork .filter-list li:hover,
+  #OurWork .filter-list li.active {
+    color: #19af83;
+    background-color: #fff;
+    border: 1px solid #19af83;
+  }
+  #Gain .title {
+    width: 100%;
+  }
+  #Gain .title h3 {
+    font-size: 22px;
+  }
+  #Gain .title h3 br {
+    display: none;
+  }
+  #Gain .title p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  #Gain .each-icon {
+    min-height: 290px;
+    margin-bottom: 10px;
+  }
+  #Laptop {
+    padding: 25px 0;
+    margin-bottom: 20px;
+  }
+  #Laptop::before {
+    background: url(../images/improve-business-ipad.jpg) no-repeat center center;
+    width: 100%;
+  }
+  #Laptop .laptop-text h2,
+  #Laptop .laptop-text p {
+    color: rgb(0, 0, 0);
+  }
+  #Video .video-icon {
+    width: 100%;
+  }
+  #Video .video-icon h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  #Video .video-icon p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  #Video .video-icon i {
+    font-size: 30px;
+  }
+  #OurWork {
+    padding-top: 20px;
+    background-color: #efefef;
+  }
+  #OurWork .title {
+    width: 100%;
+  }
+  #OurWork .title h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  #OurWork .title p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  #OurWork .filter-box .each-box .each-box-text-wap,
+  #OurWork .filter-box .each-box-text a i {
+    visibility: visible;
+    opacity: 1;
+  }
+  #OurWork .filter-list {
+    padding-bottom: 18px;
+  }
+  #OurWork .filter-list li {
+    font-size: 18px;
+  }
+  #OurWork .filter-box .each-box {
+    width: 100%;
+  }
+  #OurWork .filter-box .each-box .each-box-text {
+    padding: 8px;
+  }
+  #OurWork .filter-box .each-box-text h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  #OurWork .filter-box .each-box-text p {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  #OurWork .filter-box .each-box-text a {
+    padding: 4px 8px;
+  }
+  #OurWork .filter-box .each-box:hover .each-box-img img {
+    transform: none;
+  }
+  #ContactUs {
+    padding: 25px 0;
+  }
+  #ContactUs .contact-title {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  #ContactUs .form-wrap,
+  #ContactUs .address-block {
+    width: 100%;
+    padding: 20px;
+    display: block;
+  }
+  #ContactUs .form-wrap p {
+    font-size: 16px;
+    text-align: center;
+  }
+  #ContactUs .form-wrap .floating-label {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  #ContactUs .form-wrap .user-msg {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #ContactUs .address-block {
+    position: static;
+  }
+  #ContactUs .address-block::after {
+    content: none;
+  }
+  #ContactUs .add-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  #ContactUs .c-detail .c-info h4 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  #ContactUs .c-detail .c-info p {
+    margin: 0;
+  }
+  #Footer {
+    padding: 40px 0;
+  }
+  #Footer .footer-text p {
+    font-size: 16px;
+  }
+  #Footer .footer-text .email-box {
+    padding-bottom: 40px;
+  }
+  #Footer .footer-text .copy-right {
+    margin-bottom: 25px;
+  }
+  #Footer .footer-text .email-box label {
+    font-size: 16px;
+  }
+  #Footer .footer-text .copy-right p {
+    text-align: center;
+  }
+  #Footer .footer-text .social-share {
+    text-align: center;
+  }
+  #Footer .footer-text .social-share ul li {
+    margin-right: 30px;
+  }
+  #Footer .footer-text .social-share ul li:last-child {
+    margin-right: 0;
+  }
+  #Footer .footer-text .email-box input {
+    width: 100%;
+  }
+  #Footer .footer-text p.designed {
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+
+
+/*Mobile landscape view styles*/
+
+@media (min-width: 480px) and (max-width: 767px) {
+  #HeroBanner {
+    height: 350px;
+  }
+  #Laptop .laptop-img img {
+    width: 80%;
+  }
+  #Video {
+    height: 200px;
+    overflow: hidden;
+  }
+  #OurWork .filter-list li {
+    width: 33.33%
+  }
+  #OurWork .filter-box .each-box {
+    width: 50%;
+  }
+}
+
+
+/* Tablet Portrait view */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #Header {
+    padding: 10px 0 0;
+  }
+  #Header .logo a i {
+    font-size: 40px;
+  }
+  #nav-icon1 {
+    height: 42px;
+    width: 40px;
+  }
+  #HeroBanner {
+    height: 470px;
+  }
+  #BannerSlider {
+    padding-top: 70px;
+  }
+  #BannerSlider .banner-text h1 {
+    font-size: 32px;
+  }
+  #Laptop {
+    text-align: center;
+  }
+  #Laptop .laptop-img img {
+    width: 75%;
+    margin: 0 auto 20px;
+  }
+  #Laptop .laptop-text h2 {
+    font-size: 28px;
+  }
+  #Gain .title h3 {
+    font-size: 28px;
+  }
+  #Gain .each-icon {
+    min-height: 310px;
+  }
+  #Gain .each-icon.box-1,
+  #Gain .each-icon.box-2 {
+    margin-bottom: 30px;
+  }
+  #Gain .each-icon .icon-text,
+  #Gain .each-icon:hover .icon-wrap {
+    visibility: visible;
+    opacity: 1;
+  }
+  #Gain .each-icon .icon-wrap,
+  #Gain .each-icon .icon-text {
+    position: static;
+    transform: none;
+  }
+  #Gain .each-icon .icon-text {
+    padding-bottom: 20px;
+  }
+  #Gain .each-icon .icon-wrap {
+    padding-top: 16px;
+  }
+  #Gain .each-icon .icon-wrap i {
+    font-size: 50px;
+  }
+  #Laptop {
+    margin-bottom: 25px;
+  }
+  #Laptop::before {
+    width: 100%;
+    background: url(../images/improve-business-ipad.jpg) no-repeat center center;
+  }
+  #Laptop .laptop-text h2,
+  #Laptop .laptop-text p {
+    color: rgb(0, 0, 0);
+  }
+  #Video .video-icon {
+    width: 100%;
+  }
+  #Video .video-icon h3 {
+    font-size: 38px;
+    margin-bottom: 15px;
+  }
+  #Video .video-icon p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  #Video .video-icon i {
+    font-size: 40px;
+  }
+  #OurWork {
+    padding-top: 35px;
+  }
+  #OurWork .title {
+    width: 100%;
+  }
+  #OurWork .title h3 {
+    font-size: 28px;
+  }
+  #Gain .title {
+    width: 100%;
+  }
+  #OurWork .title p {
+    font-size: 20px;
+  }
+  #OurWork .filter-list li {
+    font-size: 18px;
+    padding: 0 14px;
+  }
+  #OurWork .filter-box .each-box .each-box-text-wap,
+  #OurWork .filter-box .each-box-text a i {
+    visibility: visible;
+    opacity: 1;
+  }
+  #OurWork .filter-box .each-box:hover .each-box-img img {
+    transform: none;
+  }
+  #OurWork .filter-box .each-box-text h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  #OurWork .filter-box .each-box-text p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  #OurWork .filter-box .each-box-text a {
+    padding: 4px 8px;
+  }
+  #OurWork .filter-box .each-box:hover .each-box-text a i {
+    font-size: 28px;
+  }
+  #ContactUs {
+    padding: 40px 0;
+  }
+  #ContactUs .contact-title {
+    margin-bottom: 12px;
+  }
+  #ContactUs .form-wrap {
+    padding: 22px;
+  }
+  #ContactUs .form-wrap .fname,
+  #ContactUs .form-wrap .contact {
+    margin-right: 14px;
+  }
+  #ContactUs .c-detail .c-icon {
+    width: 15%;
+  }
+  #ContactUs .c-detail .c-info {
+    width: 52%;
+  }
+  #ContactUs .address-block {
+    padding: 22px;
+  }
+  #ContactUs .add-title {
+    margin-bottom: 30px;
+  }
+  #Footer {
+    padding: 45px 0 30px;
+  }
+  #Footer .footer-text .email-box {
+    padding-bottom: 70px;
+  }
+}
+
+
+/*Tablet Landscape*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #HeroBanner {
+    height: 530px;
+  }
+  #BannerSlider {
+    padding-top: 70px;
+  }
+  #Gain .each-icon .icon-wrap i {
+    font-size: 65px;
+    padding-top: 15px;
+  }
+  #Gain .each-icon .icon-text {
+    padding: 8px 10px;
+  }
+  #Gain .each-icon .icon-text,
+  #Gain .each-icon:hover .icon-wrap {
+    visibility: visible;
+    opacity: 1;
+  }
+  #Gain .each-icon .icon-wrap,
+  #Gain .each-icon .icon-text {
+    position: static;
+    transform: none;
+  }
+  #Laptop::before {
+    background-position: center center;
+    width: 50%;
+  }
+  #Video .video-icon h3 {
+    font-size: 38px;
+    margin-bottom: 15px;
+  }
+  #Video .video-icon p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  #Video .video-icon i {
+    font-size: 40px;
+  }
+  #OurWork {
+    padding-top: 35px;
+  }
+  #OurWork .filter-box .each-box .each-box-text-wap,
+  #OurWork .filter-box .each-box-text a i {
+    visibility: visible;
+    opacity: 1;
+  }
+  #OurWork .filter-box .each-box:hover .each-box-img img {
+    transform: none;
+  }
+  #OurWork .filter-box .each-box-text h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  #OurWork .filter-box .each-box-text p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  #OurWork .filter-box .each-box-text a {
+    padding: 11px 16px;
+  }
+  #ContactUs {
+    padding: 40px 0;
+  }
+  #ContactUs .contact-title {
+    margin-bottom: 12px;
+  }
+  #ContactUs .form-wrap {
+    padding: 22px;
+  }
+  #ContactUs .address-block {
+    padding: 22px;
+  }
+  #ContactUs .add-title {
+    margin-bottom: 30px;
+  }
+  #Footer {
+    padding: 45px 0 30px;
+  }
+  #Footer .footer-text .email-box {
+    padding-bottom: 70px;
+  }
+}
+
+@media (min-width: 1700px) {
+  #OurWork .filter-box {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
